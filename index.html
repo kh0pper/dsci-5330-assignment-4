@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford Motor Company: Management Model & Strategy Implementation Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #00095B 0%, #003478 50%, #00509E 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .ford-logo {
+            display: inline-block;
+            background-color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00095B;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 8px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .memo-header {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #00095B;
+        }
+
+        .memo-header h2 {
+            color: #00095B;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .memo-info {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+
+        .memo-info strong {
+            color: #00095B;
+            font-weight: 600;
+        }
+
+        .content-section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section h2 {
+            color: #00095B;
+            border-bottom: 3px solid #00509E;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .content-section h3 {
+            color: #003478;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+
+        .content-section h4 {
+            color: #00509E;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .content-section p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .content-section ul, .content-section ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+
+        table thead {
+            background: linear-gradient(135deg, #00095B 0%, #003478 100%);
+            color: white;
+        }
+
+        table th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #ddd;
+        }
+
+        table td {
+            padding: 0.8rem 1rem;
+            border: 1px solid #ddd;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        table tbody tr:hover {
+            background-color: #e3f2fd;
+        }
+
+        .visualization {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .visualization img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 3px solid #00509E;
+        }
+
+        .visualization-caption {
+            margin-top: 0.5rem;
+            font-style: italic;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .key-finding {
+            background: #e3f2fd;
+            border-left: 4px solid #00509E;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        .key-finding h4 {
+            color: #00095B;
+            margin-bottom: 0.5rem;
+        }
+
+        .recommendation {
+            background: #f1f8e9;
+            border-left: 4px solid #558b2f;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        .recommendation h4 {
+            color: #558b2f;
+            margin-bottom: 0.5rem;
+        }
+
+        .rating {
+            display: inline-block;
+            background: #00095B;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            background: #00095B;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .footer a {
+            color: #90caf9;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-menu {
+            background: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .nav-menu ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-menu a {
+            color: #00095B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #00509E;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .content-section {
+                padding: 1.5rem;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            table th, table td {
+                padding: 0.5rem;
+            }
+        }
+
+        strong {
+            color: #00095B;
+        }
+
+        .highlight {
+            background-color: #fff9c4;
+            padding: 0 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="ford-logo">FORD</div>
+        <h1>Management Model & Strategy Implementation Analysis</h1>
+        <div class="subtitle">Evaluating the Ford+ Transformation (2020-2025)</div>
+    </div>
+
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#executive-summary">Executive Summary</a></li>
+            <li><a href="#context">Strategic Context</a></li>
+            <li><a href="#management-model">Management Model</a></li>
+            <li><a href="#implementation">Strategy Implementation</a></li>
+            <li><a href="#challenges">Challenges</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+            <li><a href="#visualizations">Visualizations</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="memo-header">
+            <h2>MEMORANDUM</h2>
+            <div class="memo-info">
+                <strong>TO:</strong><span>Board of Directors</span>
+                <strong>FROM:</strong><span>Business Intelligence Team</span>
+                <strong>DATE:</strong><span>October 22, 2025</span>
+                <strong>RE:</strong><span>Ford Motor Company Management Model & Strategy Implementation Analysis (2020-2025)</span>
+            </div>
+        </div>
+
+        <div class="content-section" id="executive-summary">
+            <h2>EXECUTIVE SUMMARY</h2>
+            <p>Ford Motor Company's transformation under CEO Jim Farley exemplifies strategic management model evolution in the automotive industry's most disruptive period. This analysis applies <strong>Birkinshaw and Goddard's (2009) MIT Sloan management model framework</strong> and <strong>Nieto-Rodriguez's Strategy Implementation Roadmap</strong> to evaluate Ford's Ford+ plan execution and organizational effectiveness.</p>
+
+            <div class="key-finding">
+                <h4>Key Findings</h4>
+                <p>Ford successfully transitioned from a traditional hierarchical management model (2020) to a <strong>hybrid approach</strong> balancing <strong>obliquity</strong> (purpose-driven mission) with <strong>goal setting</strong> (financial targets), <strong>intrinsic and extrinsic motivation</strong>, <strong>emergent and bureaucratic coordination</strong>, and <strong>collective wisdom with hierarchical oversight</strong> (2022-2025).</p>
+
+                <p>The March 2022 organizational restructure into three business units—Ford Blue (ICE/hybrid), Ford Model e (EVs/software), and Ford Pro (commercial)—represents <strong>directed strategy</strong> creating conditions for <strong>emergent strategy</strong> within autonomous units.</p>
+            </div>
+
+            <p><strong>Strategy implementation assessment:</strong> Overall score of <span class="rating">3.3/5.0</span>, indicating moderate effectiveness with significant variation. Leadership execution <span class="rating">(4/5)</span> and business model innovation <span class="rating">(4/5)</span> demonstrate strength, while employee engagement <span class="rating">(2/5)</span> represents critical weakness. Ford Pro's $9B EBIT (2024) validates the strategic approach, while Ford Model e's -$5.4B loss reveals execution challenges.</p>
+
+            <div class="recommendation">
+                <h4>Critical Recommendation</h4>
+                <p>Ford must stabilize its management model on a sustainable hybrid approach, accelerate Model e profitability through a three-horizon strategy, and rebuild employee engagement to support cultural transformation. The February 2025 leadership changes—appointing Marin Gjaja as Chief Strategy Officer and John Lawler as Vice Chair-Strategy—signal recognition that business unit autonomy requires strategic coordination.</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="context">
+            <h2>I. COMPANY OVERVIEW & STRATEGIC CONTEXT</h2>
+
+            <h3>Ford's Market Position (2024)</h3>
+            <p>Ford Motor Company ranks as America's #2 automaker with $185.0B revenue, 4.5 million wholesale units, and 171,000 employees globally. Founded in 1903, Ford pioneered mass production and the moving assembly line, establishing manufacturing practices that defined 20th-century industry.</p>
+
+            <h3>Competitive Landscape Analysis: Porter's Five Forces</h3>
+
+            <h4>Intensity of Competitive Rivalry (HIGH)</h4>
+            <p>Traditional OEM competition from General Motors and Stellantis, EV disruptor Tesla with its direct-sales model and software expertise, and rising Asian manufacturers like Toyota (hybrid strength) and Hyundai-Kia create multi-front competitive battles. Ford's response—the three-business-unit structure—attempts focused competitive strategies rather than one-size-fits-all approaches.</p>
+
+            <h4>Threat of New Entrants (MEDIUM-HIGH)</h4>
+            <p>While capital barriers remain high ($8.5B R&D, 2024), the EV transition lowers entry barriers through simpler powertrains and fewer components. Ford's Ford+ plan emphasizes software and services differentiation to defend against new entrants.</p>
+
+            <h4>Bargaining Power of Suppliers (MEDIUM-HIGH)</h4>
+            <p>Limited EV battery manufacturers (LG, Samsung, CATL) and semiconductor shortages (2021-2023) demonstrate supplier power. Ford responds through vertical integration, including battery plants and supplier partnerships.</p>
+
+            <h4>Bargaining Power of Buyers (MEDIUM)</h4>
+            <p>Commercial customers (Ford Pro) wield significant fleet purchasing leverage, while retail customers have moderate power mitigated by brand loyalty. Ford's 9,006 dealerships (2024) provide customer access, though Model e explores direct-to-consumer sales.</p>
+
+            <h4>Threat of Substitutes (MEDIUM-LOW)</h4>
+            <p>Public transportation, ride-sharing (Uber, Lyft), and future autonomous mobility present substitute threats. Ford Next segment explores mobility solutions to address this force.</p>
+
+            <h3>Strategic Inflection Points (2020-2025)</h3>
+
+            <p><strong>October 2020: Jim Farley Becomes CEO</strong> — Replacing Jim Hackett, Farley brought marketing and product expertise from Toyota, signaling a shift toward product-focused, decisive leadership.</p>
+
+            <p><strong>May 2021: Ford+ Plan Announcement</strong> — Farley unveiled Ford+ vision: "Help build a better world, where every person is free to move and pursue their dreams" through "must-have vehicles" and "always-on relationships" combining existing strengths with new capabilities. This represents <strong>oblique objectives</strong>—pursuing higher-order purpose to achieve profitability.</p>
+
+            <p><strong>March 2022: Business Unit Restructuring</strong> — Ford reorganized into three customer-centered business units: Ford Blue ($75B revenue, $5.6B EBIT, 2024), Ford Model e ($7B revenue, -$5.4B EBIT), and Ford Pro ($53B revenue, $9B EBIT). Farley explained: "Creating separate but complementary businesses that give us startup speed and unbridled innovation in Ford Model e together with Ford Blue's industrial know-how." This exemplifies <strong>directed strategy</strong> (top-down reorganization) creating infrastructure for <strong>emergent strategy</strong> (unit-level innovation).</p>
+
+            <p><strong>February 2025: Leadership Refinement</strong> — Ford appointed Sherry House as CFO (from investment banking), elevated John Lawler to Vice Chair-Strategy, and created a Chief Strategy Officer role for Marin Gjaja (25 years at BCG). These changes signal strategic recentralization after three years of business unit autonomy—recognizing that emergence requires oversight.</p>
+
+            <h3>Table 1: Management Structure Evolution (2020-2025)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>CEO</th>
+                        <th>CFO</th>
+                        <th>Business Model</th>
+                        <th>Key Strategic Initiative</th>
+                        <th>Total Employees (K)</th>
+                        <th>Organizational Changes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2020</td>
+                        <td>Jim Farley (Oct 2020-present)</td>
+                        <td>John Lawler</td>
+                        <td>Traditional Automotive Segment Structure</td>
+                        <td>Product-first turnaround, EV announcement</td>
+                        <td>186</td>
+                        <td>Farley becomes CEO, emphasis on profitability</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>Jim Farley</td>
+                        <td>John Lawler</td>
+                        <td>Ford+ Plan Announced (May 2021)</td>
+                        <td>Ford+ plan, EV acceleration, customer relationships</td>
+                        <td>183</td>
+                        <td>Ford+ plan unveiled, signals upcoming restructure</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>Jim Farley</td>
+                        <td>John Lawler</td>
+                        <td>Three Business Units: Blue/Model e/Pro (Mar 2022)</td>
+                        <td>Business unit separation, EV investments</td>
+                        <td>173</td>
+                        <td>Major restructuring into 3 business units</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Jim Farley</td>
+                        <td>John Lawler</td>
+                        <td>Blue/Model e/Pro Maturation</td>
+                        <td>Commercial leadership (Pro), EV cost reduction</td>
+                        <td>177</td>
+                        <td>Further organizational streamlining</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Jim Farley</td>
+                        <td>Sherry House (Feb 2025)</td>
+                        <td>Blue/Model e/Pro + Ford Next</td>
+                        <td>Cost discipline, performance culture, strategic focus</td>
+                        <td>171</td>
+                        <td>2025 leadership changes: House CFO, Lawler Vice Chair-Strategy, Gjaja CSO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content-section" id="management-model">
+            <h2>II. MANAGEMENT MODEL ANALYSIS</h2>
+
+            <h3>Theoretical Framework</h3>
+            <p>Birkinshaw and Goddard (2009) define management model as "choices made by top executives regarding how they define objectives, motivate effort, coordinate activities and allocate resources" (p. 81). They identify four dimensions, each with two polar approaches:</p>
+
+            <ol>
+                <li><strong>Objectives:</strong> Goal Setting (direct targets) ↔ Obliquity (higher-order purpose)</li>
+                <li><strong>Motivation:</strong> Extrinsic (compensation) ↔ Intrinsic (achievement, purpose)</li>
+                <li><strong>Coordination:</strong> Bureaucracy (formal processes) ↔ Emergence (spontaneous self-organization)</li>
+                <li><strong>Decision-Making:</strong> Hierarchy (top-down authority) ↔ Collective Wisdom (distributed knowledge)</li>
+            </ol>
+
+            <h3>Dimension 1: Managing Objectives — From Goal Setting to Obliquity</h3>
+
+            <p><strong>Pre-2021 Approach:</strong> Ford employed traditional goal setting with quarterly earnings focus and short-term profitability targets. The 2020 10-K emphasized "improving operating efficiency" and "cost reduction" without higher-order purpose.</p>
+
+            <p><strong>2021-2024 Evolution:</strong> Ford+ introduced oblique objectives: "Help build a better world, where every person is free to move and pursue their dreams." This parallels IKEA's "better everyday life" approach that Kay (1998) identified as achieving profitability indirectly through purpose. However, Ford balanced obliquity with direct goals—Ford Pro's $9B EBIT target and business unit P&L accountability maintained financial discipline.</p>
+
+            <p><strong>2025 Recalibration:</strong> The $1B cost savings target and 2025 bonus cuts signal pendulum swinging from obliquity back toward goal setting. While necessary for financial discipline, this risks undermining the purpose-driven motivation that attracted talent to Model e's EV mission.</p>
+
+            <h3>Dimension 2: Motivating Individuals — Balancing Extrinsic and Intrinsic</h3>
+
+            <p>McGregor's (1960) Theory X assumes workers need extrinsic motivation (compensation, bonuses), while Theory Y emphasizes intrinsic motivation (achievement, purpose, peer recognition).</p>
+
+            <p><strong>2021-2024 Balance:</strong> Ford+ introduced intrinsic elements: Model e's mission to "invent breakthrough EVs" attracted mission-driven engineers; the purpose statement "build a better world" appeared in every 10-K; and business unit P&L accountability created psychological ownership.</p>
+
+            <p><strong>2025 Shift:</strong> Approximately 50% of middle managers lost stock bonuses as part of cost-cutting, projected to save $1B. While emphasizing "high-performance culture," this shift toward performance-focused extrinsic motivation risks reducing the intrinsic commitment needed for cultural transformation.</p>
+
+            <h3>Dimension 3: Coordinating Activities — Emergence Through Business Units</h3>
+
+            <p>The business unit structure enabled emergent coordination through autonomous P&L units focused on different customer segments. Ford Blue maintained traditional manufacturing coordination, Ford Model e adopted startup-like agile development, and Ford Pro built customer-centric solutions teams.</p>
+
+            <p>This aligns with Resource-Based View: business units develop distinctive capabilities—Pro's fleet software, Model e's battery technology, Blue's manufacturing scale—creating sustainable competitive advantage.</p>
+
+            <h3>Dimension 4: Making Decisions — Collective Wisdom with Oversight</h3>
+
+            <p>Ford adopted collective wisdom within hierarchical oversight: Business unit presidents made operational decisions while Farley retained ultimate authority on capital allocation, overall EV investment ($50B commitment), and brand strategy.</p>
+
+            <p>The 2025 recentralization (Gjaja's CSO reporting to both Farley and Lawler) addresses the tension between speed (collective wisdom enables faster decisions) and coherence (hierarchical oversight prevents conflicting strategies).</p>
+
+            <h3>Table 5: Management Model Comparison Matrix</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dimension</th>
+                        <th>2020 Approach</th>
+                        <th>2021 Approach</th>
+                        <th>2022-2024 Approach</th>
+                        <th>2025 Evolution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Objectives</strong></td>
+                        <td>Goal Setting (short-term financial targets)</td>
+                        <td>Hybrid (Ford+ vision + financial goals)</td>
+                        <td>Obliquity (customer freedom, better world) + Targets</td>
+                        <td>Goal Setting (cost, performance) + Vision</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Motivation</strong></td>
+                        <td>Extrinsic (compensation, bonuses)</td>
+                        <td>Balanced (purpose + compensation)</td>
+                        <td>Intrinsic emphasis (innovation, purpose) + Extrinsic</td>
+                        <td>Extrinsic (performance bonuses cut for underperformers)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coordination</strong></td>
+                        <td>Bureaucracy (traditional OEM hierarchy)</td>
+                        <td>Emerging (Ford+ signals change)</td>
+                        <td>Emergence (business unit autonomy) + Coordination</td>
+                        <td>Balanced (autonomy + accountability)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Decision Making</strong></td>
+                        <td>Hierarchy (top-down, CEO-driven)</td>
+                        <td>Hierarchy with consultation</td>
+                        <td>Collective Wisdom (unit leaders) + Executive oversight</td>
+                        <td>Strategic centralization (Gjaja CSO, Lawler strategy)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-finding">
+                <h4>Key Insight</h4>
+                <p>Ford's management model evolution demonstrates that <strong>no single model is universally optimal</strong>. The company experiments, learns, and adapts. The 2025 changes suggest recognition that 2022's emergence model required more strategic oversight—a sign of management sophistication, not failure.</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="implementation">
+            <h2>III. STRATEGY FORMULATION & IMPLEMENTATION</h2>
+
+            <h3>Ford+ Strategy Architecture</h3>
+            <p><strong>Strategic Vision:</strong> "Help build a better world, where every person is free to move and pursue their dreams"</p>
+
+            <p><strong>Strategic Pillars:</strong></p>
+            <ol>
+                <li><strong>Existing Strengths:</strong> Iconic brands (F-150 best-selling vehicle 47 years), manufacturing scale (4.5M units), dealer network (9,006 dealerships)</li>
+                <li><strong>New Capabilities:</strong> Software platforms, connectivity, EV technology, subscription services</li>
+                <li><strong>Always-On Relationships:</strong> FordPass app, over-the-air updates, fleet telematics</li>
+            </ol>
+
+            <h3>Strategy Implementation Roadmap Assessment</h3>
+            <p>Nieto-Rodriguez notes: "Between 60-90% of organizations fail at strategy implementation." Ford's implementation across seven SIR pillars reveals both strengths and weaknesses.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>SIR Pillar</th>
+                        <th>Rating</th>
+                        <th>Assessment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Leadership Execution</strong></td>
+                        <td><span class="rating">4/5</span></td>
+                        <td>Strong CEO vision (Farley's "Level 5 Leader" characteristics), strategic talent deployment (2025 C-suite enhancements). Challenges: UAW relations, rapid changes create uncertainty.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Value Creation</strong></td>
+                        <td><span class="rating">3/5</span></td>
+                        <td>Ford Pro excellent ($9B EBIT, 17% margin), Blue stable but declining, Model e destroying value (-$5.4B loss). Revenue grew 45.6% (2020-2024) but mixed unit performance.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Business Model</strong></td>
+                        <td><span class="rating">4/5</span></td>
+                        <td>Three-unit structure successfully differentiates value propositions and focuses capabilities. Challenges: Internal complexity, brand confusion, cost duplication.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Culture Evolution</strong></td>
+                        <td><span class="rating">3/5</span></td>
+                        <td>Progress attracting tech talent, Bronco resurrection shows risk-taking. Challenges: 2023 UAW strike, 2025 bonus cuts risk backlash. Transforming 118-year culture requires time.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stakeholder Management</strong></td>
+                        <td><span class="rating">3/5</span></td>
+                        <td>Effective communication (quarterly earnings, CEO town halls). Mixed buy-in: Stock decline, UAW tensions, dealer concerns about direct EV sales.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Employee Engagement</strong></td>
+                        <td><span class="rating">2/5</span></td>
+                        <td><strong>CRITICAL WEAKNESS:</strong> Job insecurity (15,000 jobs lost 2020-2024), 2025 bonus cuts (~50% middle managers), restructuring fatigue. Risks transformation success.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Performance Measurement</strong></td>
+                        <td><span class="rating">4/5</span></td>
+                        <td>Industry-leading transparency (business unit financials disclosed). Excellent KPI tracking, real-time dashboards. Gaps: Employee engagement metrics, EV profitability timeline.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center; background: #00095B; color: white; font-weight: bold;">Overall SIR Score: 3.3/5.0 (Moderate Effectiveness)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Business Unit Performance Analysis</h3>
+
+            <h4>Ford Pro <span class="rating">5/5</span> — VALUE CREATION LEADER</h4>
+            <p>Revenue grew 17.8% from $45B (2022) to $53B (2024) while EBIT increased 25% from $7.2B to $9B, yielding approximately 17% EBIT margin. Pro's value creation stems from software subscription revenue (telematics, fleet management), high-margin service contracts, and commercial customer loyalty. The integration of product (vehicles) with services (software) creates sustainable competitive advantage.</p>
+
+            <h4>Ford Blue <span class="rating">3/5</span> — CASH COW IN DECLINE</h4>
+            <p>Revenue declined 3.2% from $77.5B (2022) to $75.0B (2024), with EBIT falling 22.2% from $7.2B to $5.6B. Blue remains profitable but declining, facing the strategic challenge of balancing investment (maintain competitiveness) versus harvest (maximize cash for EV transition).</p>
+
+            <h4>Ford Model e <span class="rating">1/5</span> — VALUE DESTRUCTION</h4>
+            <p>Revenue grew 133% from $3.0B (2022) to $7.0B (2024), yet EBIT losses widened from -$2.1B to -$5.4B. Industry reports estimate $40,000-$50,000 per-unit losses. Scale is growing but unit economics are not improving, raising strategic questions about capital allocation.</p>
+
+            <h3>Table 3: Business Unit Performance (2022-2024)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Ford Blue Revenue ($B)</th>
+                        <th>Ford Blue EBIT ($M)</th>
+                        <th>Ford Model e Revenue ($B)</th>
+                        <th>Ford Model e EBIT ($M)</th>
+                        <th>Ford Pro Revenue ($B)</th>
+                        <th>Ford Pro EBIT ($M)</th>
+                        <th>Total Revenue ($B)</th>
+                        <th>Total EBIT ($M)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td>77.5</td>
+                        <td>7,200</td>
+                        <td>3.0</td>
+                        <td>-2,100</td>
+                        <td>45.0</td>
+                        <td>7,200</td>
+                        <td>156.2</td>
+                        <td>10,900</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>76.5</td>
+                        <td>6,400</td>
+                        <td>5.2</td>
+                        <td>-4,700</td>
+                        <td>48.0</td>
+                        <td>7,200</td>
+                        <td>176.2</td>
+                        <td>11,200</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>75.0</td>
+                        <td>5,600</td>
+                        <td>7.0</td>
+                        <td>-5,400</td>
+                        <td>53.0</td>
+                        <td>8,100</td>
+                        <td>185.0</td>
+                        <td>11,300</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Key Performance Indicators (2020-2024)</h3>
+
+            <h3>Table 4: Key Performance Indicators Dashboard</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Revenue ($B)</th>
+                        <th>Net Income ($M)</th>
+                        <th>EBIT ($M)</th>
+                        <th>R&D ($B)</th>
+                        <th>U.S. Market Share (%)</th>
+                        <th>Employees (K)</th>
+                        <th>Units (M)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2020</td>
+                        <td>127.1</td>
+                        <td>-1,279</td>
+                        <td>-2,874</td>
+                        <td>6.7</td>
+                        <td>13.2</td>
+                        <td>186</td>
+                        <td>4.2</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>136.3</td>
+                        <td>17,900</td>
+                        <td>10,466</td>
+                        <td>7.0</td>
+                        <td>13.4</td>
+                        <td>183</td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>156.2</td>
+                        <td>1,981</td>
+                        <td>10,900</td>
+                        <td>7.6</td>
+                        <td>13.6</td>
+                        <td>173</td>
+                        <td>4.2</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>176.2</td>
+                        <td>4,300</td>
+                        <td>11,200</td>
+                        <td>8.2</td>
+                        <td>13.9</td>
+                        <td>177</td>
+                        <td>4.4</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>185.0</td>
+                        <td>6,600</td>
+                        <td>11,300</td>
+                        <td>8.5</td>
+                        <td>14.2</td>
+                        <td>171</td>
+                        <td>4.5</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-finding">
+                <h4>Strategy Implementation Summary</h4>
+                <p>Ford demonstrates <strong>strong strategic planning</strong> (clear Ford+ vision, business unit structure) but <strong>uneven implementation execution</strong> (employee engagement low, Model e losses widening, stakeholder buy-in mixed). The 2025 leadership changes address strategic coherence across business units and could significantly improve implementation if successful.</p>
+                <p><strong>Critical Risk:</strong> Employee engagement decline threatens the entire Ford+ plan. No strategy succeeds without a willing workforce.</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="challenges">
+            <h2>IV. CHALLENGES & STRATEGIC RISKS</h2>
+
+            <h3>Challenge 1: EV Transition Execution Gap</h3>
+            <p>Ford Model e's -$5.4B EBIT loss (2024) with no clear profitability path creates strategic urgency. Root causes include unfavorable EV unit economics (battery costs, scale inefficiency), market demand slower than projected (consumer range anxiety, inadequate charging infrastructure), and intense competition (Tesla price cuts, Chinese EV manufacturers).</p>
+            <p><strong>Strategic Dilemma:</strong> Continue funding losses or pivot strategy? Continuing risks exhausting shareholder patience; pivoting risks falling behind in critical technology transition.</p>
+
+            <h3>Challenge 2: Cost Pressures and Restructuring Impacts</h3>
+            <p>The $1B cost savings target requiring 2025 bonus cuts and potential layoffs creates management model tension. The shift from intrinsic motivation (purpose, innovation) to extrinsic pressure (performance, cost discipline) risks destroying cultural progress made 2021-2024.</p>
+
+            <h3>Challenge 3: Labor Relations Complexity</h3>
+            <p>The 2023 UAW strike (46 days) and ongoing wage negotiations occur as EV transition threatens ~30% job reductions in manufacturing. Union fears about job losses create resistance to the very strategy Ford needs for long-term competitiveness.</p>
+
+            <h3>Challenge 4: Multi-Front Competitive Threats</h3>
+            <ul>
+                <li><strong>Tesla:</strong> Direct-sales model (no dealer markup), software expertise, brand cachet. Cybertruck competes with F-150 Lightning.</li>
+                <li><strong>Chinese OEMs (BYD, NIO, Geely):</strong> Low-cost EVs with government support. If Chinese EVs enter U.S., price competition intensifies.</li>
+                <li><strong>Traditional OEMs (GM, Stellantis, Toyota):</strong> Similar challenges, similar strategies create commodity competition risk.</li>
+                <li><strong>Tech Companies (Apple, Google):</strong> Mobility software, autonomous technology potentially reduce vehicles to commodity platforms.</li>
+            </ul>
+            <p><strong>Strategic Risk:</strong> Ford stuck in middle—unable to match Tesla innovation, Chinese cost, or Toyota quality.</p>
+
+            <h3>Risk Assessment Matrix</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Risk</th>
+                        <th>Likelihood</th>
+                        <th>Impact</th>
+                        <th>Priority</th>
+                        <th>Mitigation Strategy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Model e profitability delay</td>
+                        <td>HIGH</td>
+                        <td>HIGH</td>
+                        <td><strong>CRITICAL</strong></td>
+                        <td>Cost reduction, selective focus, three-horizon plan</td>
+                    </tr>
+                    <tr>
+                        <td>Employee disengagement</td>
+                        <td>HIGH</td>
+                        <td>MEDIUM</td>
+                        <td>HIGH</td>
+                        <td>Culture investment, transparent communication, reskilling</td>
+                    </tr>
+                    <tr>
+                        <td>Future UAW strike</td>
+                        <td>MEDIUM</td>
+                        <td>HIGH</td>
+                        <td>HIGH</td>
+                        <td>Proactive negotiations, worker transition planning</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla Cybertruck competition</td>
+                        <td>HIGH</td>
+                        <td>MEDIUM</td>
+                        <td>MEDIUM</td>
+                        <td>F-150 Lightning improvements, brand loyalty leverage</td>
+                    </tr>
+                    <tr>
+                        <td>Chinese EV entry to U.S.</td>
+                        <td>MEDIUM</td>
+                        <td>HIGH</td>
+                        <td>MEDIUM</td>
+                        <td>Innovation leadership, brand strength, policy advocacy</td>
+                    </tr>
+                    <tr>
+                        <td>Dealer revolt (direct sales)</td>
+                        <td>MEDIUM</td>
+                        <td>MEDIUM</td>
+                        <td>LOW</td>
+                        <td>Dealer partnerships, revenue sharing models</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content-section" id="recommendations">
+            <h2>V. STRATEGIC RECOMMENDATIONS</h2>
+
+            <div class="recommendation">
+                <h4>Recommendation 1: Refine Management Model for Sustainable Balance</h4>
+                <p><strong>Issue:</strong> Management model pendulum swinging excessively (2022 emergence → 2025 centralization).</p>
+                <p><strong>Actions:</strong></p>
+                <ul>
+                    <li><strong>Objectives:</strong> Maintain oblique vision ("better world") while setting realistic unit targets (Model e breakeven by 2027)</li>
+                    <li><strong>Motivation:</strong> Restore intrinsic/extrinsic balance by reversing 2025 bonus cuts for top performers and implementing innovation rewards separate from financial bonuses</li>
+                    <li><strong>Coordination:</strong> Preserve business unit autonomy with strategic guardrails—Gjaja coordinates strategy but doesn't dictate tactics</li>
+                    <li><strong>Decision-Making:</strong> Clarify decision authority matrix (unit presidents: operations/pricing; CEO + CSO: capital allocation/brand strategy)</li>
+                </ul>
+                <p><strong>Expected Outcome:</strong> Organizational stability, improved employee engagement (2/5 → 4/5), maintained innovation with added strategic coherence.</p>
+            </div>
+
+            <div class="recommendation">
+                <h4>Recommendation 2: Accelerate Model e Profitability Through Three-Horizon Strategy</h4>
+                <p><strong>Issue:</strong> Model e -$5.4B loss unsustainable; EV transition strategically critical.</p>
+                <p><strong>Three-Horizon Approach:</strong></p>
+                <ul>
+                    <li><strong>Horizon 1 (2025-2026): Cost Reduction</strong>
+                        <ul>
+                            <li>Reduce per-unit loss from $45,000 to $25,000 through battery cost reduction, manufacturing efficiency, platform sharing with Blue</li>
+                            <li>Target: -$3B losses (2025), -$1.5B (2026)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Horizon 2 (2026-2027): Selective Product Focus</strong>
+                        <ul>
+                            <li>Prioritize: F-150 Lightning (truck market strength), commercial EVs (Pro synergy)</li>
+                            <li>Deprioritize: EV sedans (weak market, Tesla dominance)</li>
+                            <li>Launch: Affordable EV ($30-35K) using lower-cost battery technology</li>
+                            <li>Target: Breakeven by end of 2027</li>
+                        </ul>
+                    </li>
+                    <li><strong>Horizon 3 (2027-2030): Software/Services Revenue</strong>
+                        <ul>
+                            <li>Develop subscription services (BlueCruise, over-the-air features)</li>
+                            <li>Fleet charging solutions integrated with Ford Pro</li>
+                            <li>Battery recycling business (circular economy)</li>
+                            <li>Target: 10-15% of Model e revenue from high-margin services</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><strong>Expected Outcome:</strong> Clear path to profitability restores shareholder confidence while maintaining EV transition momentum.</p>
+            </div>
+
+            <div class="recommendation">
+                <h4>Recommendation 3: Rebuild Employee Engagement Through Stakeholder Capitalism</h4>
+                <p><strong>Issue:</strong> Employee engagement declining (2/5) due to restructuring and cost-cutting.</p>
+                <p><strong>Actions:</strong></p>
+                <ul>
+                    <li><strong>Transparent Communication:</strong> Monthly CEO town halls; unit-level employee forums; clear job security and EV transition workforce planning</li>
+                    <li><strong>Reskilling Investment:</strong> $500M EV workforce training program with guarantee that ICE workers can transition to EV jobs; UAW partnership on curriculum</li>
+                    <li><strong>Shared Success:</strong> Restore performance-based bonuses for middle managers; implement profit-sharing if company exceeds EBIT targets; unit-level team bonuses</li>
+                    <li><strong>Work-Life Balance:</strong> Flexible work arrangements; mental health support; recognition beyond compensation</li>
+                </ul>
+                <p><strong>Expected Outcome:</strong> Employee engagement improves to 4/5, reducing turnover, improving innovation, supporting cultural transformation.</p>
+            </div>
+
+            <div class="recommendation">
+                <h4>Recommendation 4: Leverage Ford Pro Success for Competitive Differentiation</h4>
+                <p><strong>Issue:</strong> Ford Pro is star performer ($9B EBIT) but underleverage for competitive advantage.</p>
+                <p><strong>Actions:</strong></p>
+                <ul>
+                    <li><strong>Expand Pro Model to Blue:</strong> Apply software/services approach to consumer vehicles; develop subscription telematics for F-150 retail</li>
+                    <li><strong>Integrated EV Solutions:</strong> Bundle Model e commercial EVs with Pro fleet software; offer charging infrastructure as service</li>
+                    <li><strong>B2B2C Strategy:</strong> Use Pro commercial relationships to reach consumer customers; fleet drivers as brand ambassadors</li>
+                    <li><strong>Data Monetization:</strong> Aggregate anonymized fleet data for urban planning insights; predictive maintenance services</li>
+                </ul>
+                <p><strong>Expected Outcome:</strong> Ford Pro differentiates Ford from all competitors—none have equivalent commercial/software integration—creating sustainable competitive "moat." Ford Pro EBIT: $9B (2024) → $11B (2026).</p>
+            </div>
+
+            <h3>Implementation Timeline</h3>
+            <ul>
+                <li><strong>Q2 2025:</strong> Management model stabilization; Model e cost reduction launch; employee engagement listening tour</li>
+                <li><strong>Q3 2025:</strong> EV reskilling program announcement; Ford Pro expansion plan; quarterly strategic alignment</li>
+                <li><strong>Q4 2025:</strong> Bonus policy revision; affordable EV announcement; UAW partnership on workforce transition</li>
+                <li><strong>2026:</strong> Model e losses declining; employee engagement improving; Ford Pro integrated solutions in market</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>VI. CONCLUSION</h2>
+
+            <p>Ford Motor Company's management and strategy transformation (2020-2025) demonstrates both the <strong>promise and peril</strong> of management model innovation in legacy industry disruption.</p>
+
+            <h3>Key Findings Summary</h3>
+            <p>Using Birkinshaw and Goddard's (2009) MIT Sloan framework, Ford evolved from pure hierarchy (2020) to hybrid emergence (2022-2024) to balanced integration (2025), showing management sophistication through experimentation, learning, and adaptation. The company successfully balanced objectives (obliquity with goal setting), motivation (intrinsic with extrinsic), coordination (emergence with oversight), and decision-making (collective wisdom with hierarchical coherence).</p>
+
+            <p>Applying Nieto-Rodriguez's Strategy Implementation Roadmap, Ford scores 3.3/5.0 overall, demonstrating moderate effectiveness with significant variation: strong leadership execution and business model innovation, moderate value creation and culture evolution, weak employee engagement representing critical risk.</p>
+
+            <div class="key-finding">
+                <h4>Performance Paradox</h4>
+                <p>Ford Pro ($9B EBIT, 2024) validates strategy; Ford Model e (-$5.4B loss) reveals execution difficulty; Ford Blue (22% EBIT decline) indicates core business pressure. This mixed performance underscores that organizational transformation requires not just strategic vision (which Ford has) but also implementation excellence (which remains incomplete).</p>
+            </div>
+
+            <h3>Future Outlook Assessment</h3>
+            <ul>
+                <li><strong>Best Case (35% probability):</strong> Model e breakeven 2027; Ford Pro $12B+ EBIT; employee engagement rebounds; stock $18-20; management model stabilizes as competitive advantage</li>
+                <li><strong>Most Likely (50% probability):</strong> Model e losses narrow (-$2B 2027); Ford Pro strong ($10-11B); engagement challenged (3/5); stock $12-14; management model continues seeking balance</li>
+                <li><strong>Downside (15% probability):</strong> Model e strategic pivot; UAW strike disrupts; talent exodus; stock $6-8; management model reverts to hierarchy</li>
+            </ul>
+
+            <h3>Final Assessment</h3>
+            <p>Ford's management model transformation is <strong>ambitious and necessary</strong>. The automotive industry's transition to EVs, software, and services requires new organizational capabilities that traditional hierarchical structures cannot provide. Ford's experiment with business unit autonomy, balanced motivation, and collective wisdom represents genuine management innovation.</p>
+
+            <p>However, implementation challenges are significant. The 2025 cost-cutting measures risk undoing cultural progress. Model e losses test shareholder patience. Employee engagement decline threatens human capital transformation requires.</p>
+
+            <p>The 2025 leadership changes demonstrate recognition of these challenges. By adding strategic oversight while maintaining business unit structure, Ford attempts to capture benefits of both emergence and coherence. As Drucker (1994) noted, "The theory of the business must be known and understood throughout the organization" (p. 95). Ford+ provides that theory; management model refinement will determine execution success.</p>
+
+            <div class="recommendation" style="background: #fff3cd; border-left: 4px solid #00095B;">
+                <h4>Ultimate Verdict</h4>
+                <p>Ford's management and strategy transformation is <strong>partially effective (3.2/5.0 overall)</strong> with <strong>significant upside potential</strong> if recommendations are implemented. The next 18-24 months (2025-2026) will determine whether Ford+ becomes a case study in transformation success or cautionary tale of strategic ambition exceeding organizational capability.</p>
+                <p>Success requires not choosing between traditional and modern management approaches, but rather finding sustainable balance between goal-setting and obliquity, extrinsic and intrinsic motivation, bureaucracy and emergence, hierarchy and collective wisdom.</p>
+                <p>As Birkinshaw and Goddard (2009) conclude: "There is no one best management model" (p. 90). Ford's journey proves this insight—the company's willingness to experiment and adapt represents exactly the management sophistication required for 21st-century competitiveness.</p>
+            </div>
+        </div>
+
+        <div class="content-section" id="visualizations">
+            <h2>DATA VISUALIZATIONS</h2>
+
+            <div class="visualization">
+                <img src="visualizations/1_management_model_radar.png" alt="Management Model Radar Chart">
+                <div class="visualization-caption">Figure 1: Management Model Evolution - MIT Sloan 4-Dimension Analysis (2020/2022-2024/2025)</div>
+            </div>
+
+            <div class="visualization">
+                <img src="visualizations/2_sir_heatmap.png" alt="Strategy Implementation Roadmap Heatmap">
+                <div class="visualization-caption">Figure 2: Strategy Implementation Roadmap (SIR) - 7-Pillar Performance Assessment</div>
+            </div>
+
+            <div class="visualization">
+                <img src="visualizations/3_business_unit_performance.png" alt="Business Unit Performance Trends">
+                <div class="visualization-caption">Figure 3: Business Unit Performance Trends - Revenue & EBIT by Blue/Model e/Pro (2022-2024)</div>
+            </div>
+
+            <div class="visualization">
+                <img src="visualizations/4_kpi_dashboard.png" alt="KPI Dashboard">
+                <div class="visualization-caption">Figure 4: Comprehensive KPI Dashboard - 6-Panel Multi-Metric Analysis (2020-2024)</div>
+            </div>
+
+            <div class="visualization">
+                <img src="visualizations/5_organizational_structure.png" alt="Ford+ Organizational Structure">
+                <div class="visualization-caption">Figure 5: Ford+ Organizational Structure - Three Business Units with 2025 C-Suite Leadership</div>
+            </div>
+
+            <div class="visualization">
+                <img src="visualizations/6_competitive_positioning.png" alt="Competitive Positioning Matrix">
+                <div class="visualization-caption">Figure 6: Competitive Positioning Matrix - Ford Units vs. Industry Competitors on Innovation/Profitability Dimensions</div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>WORKS CITED</h2>
+            <p style="font-size: 0.9rem; line-height: 1.8;">
+            <strong>Primary Sources:</strong><br>
+            Ford Motor Company. (2021-2025). <em>Form 10-K Annual Reports (2020-2024)</em>. U.S. Securities and Exchange Commission.<br>
+            Ford Motor Company. (2025, February 6). Ford Announces Key Leadership Changes. <em>Ford From the Road</em>.<br>
+            <br>
+            <strong>Academic Sources:</strong><br>
+            Birkinshaw, J., & Goddard, J. (2009). What Is Your Management Model? <em>MIT Sloan Management Review</em>, 50(2), 81-90.<br>
+            Drucker, P. F. (1994). The Theory of the Business. <em>Harvard Business Review</em>, 72(5), 95-104.<br>
+            Kay, J. (1998). <em>Obliquity: Why Our Goals Are Best Achieved Indirectly</em>. Profile Books.<br>
+            McGregor, D. (1960). <em>The Human Side of Enterprise</em>. McGraw-Hill.<br>
+            Nieto-Rodriguez, A. (2021). Strategy Implementation: A Modern Guide. <em>LinkedIn Learning</em>.<br>
+            Porter, M. E. (1996). What is Strategy? <em>Harvard Business Review</em>, 74(6), 61-78.<br>
+            <br>
+            <strong>Industry Analysis:</strong><br>
+            Bloomberg. (2022, March 2). Ford Reorganizes to Run EV and Engine Businesses Separately.<br>
+            California Management Review. (2022). Strategizing for the Electrification Era: How the Ford Story is Unfolding.<br>
+            CNBC. (2024, February 6). Ford tops fourth-quarter estimates, guides toward strong 2024.<br>
+            Chief Executive. (2024). How Jim Farley Is Remaking The Ford Story.<br>
+            The Detroit News. (2024). Ford completes organizational changes to support growth strategy.<br>
+            <br>
+            <em>Complete works cited available in repository: works_cited.md</em>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><strong>Ford Motor Company</strong> | Business Intelligence Team</p>
+        <p>Management Model & Strategy Implementation Analysis (2020-2025)</p>
+        <p>October 2025</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+            <a href="https://github.com/kh0pper/dsci-5330-assignment-4" target="_blank">View on GitHub</a> |
+            <a href="README.md">Full Memorandum</a> |
+            <a href="works_cited.md">Complete Works Cited</a>
+        </p>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
