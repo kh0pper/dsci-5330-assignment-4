@@ -545,16 +545,3 @@ As Birkinshaw and Goddard (2009) conclude: "There is no one best management mode
 
 *[All visualizations available in /visualizations directory]*
 
----
-
-**Memorandum Length:** Approximately 11 pages (excluding Works Cited)
-**Format:** 1.5 spacing, 12-point font (as specified)
-**Citation Style:** Inline citations with comprehensive Works Cited page
-**Data Integration:** 5 tables + 6 visualizations embedded throughout text
-
----
-
-**Prepared by:** [Student Name]
-**Course:** DSCI-5330 - Management and Strategy
-**Institution:** University of North Texas
-**Date:** October 21, 2025
