@@ -78,7 +78,7 @@ McGregor's (1960) Theory X assumes workers need extrinsic motivation (compensati
 
 **2025 Shift:** Approximately 50% of middle managers lost stock bonuses as part of cost-cutting, projected to save $1B (Ford Authority, 2025). While emphasizing "high-performance culture," this shift toward performance-focused extrinsic motivation risks reducing the intrinsic commitment needed for cultural transformation.
 
-Eikenberry's (2021) distinction applies: "Commitment is 'I want to'; compliance is 'I have to.'" Ford's 2025 approach risks shifting from commitment to compliance precisely when transformation requires discretionary effort.
+Eikenberry's (2019) distinction applies: "Commitment is 'I want to'; compliance is 'I have to.'" Ford's 2025 approach risks shifting from commitment to compliance precisely when transformation requires discretionary effort.
 
 The 2025 bonus cuts create management model tension. While cost discipline is necessary (extrinsic accountability), undermining intrinsic motivation during cultural transformation is strategically risky.
 
@@ -197,7 +197,7 @@ Ford effectively communicates Ford+ plan through quarterly earnings, investor da
 
 While Ford maintains 10 Employee Resource Groups, health and safety focus, and leadership development programs, the $1B cost savings directly contradicts engagement investment. Constant restructuring exhausts the workforce.
 
-Eikenberry's (2021) guidance: "You must work harder to support and inspire your team, rather than just telling them what to do." Ford's 2025 actions (bonus cuts, restructuring) appear more "telling" than "inspiring."
+Eikenberry's (2019) guidance: "You must work harder to support and inspire your team, rather than just telling them what to do." Ford's 2025 actions (bonus cuts, restructuring) appear more "telling" than "inspiring."
 
 **Score Rationale:** Engagement declining due to cost-cutting and restructuring. This represents the highest-risk area for Ford+ implementation success.
 
@@ -249,7 +249,7 @@ The $1B cost savings target requiring 2025 bonus cuts and potential layoffs crea
 
 **Strategic Risk:** Cost-cutting damages culture, innovation, and employee engagement—precisely the organizational capabilities needed for transformation.
 
-**Management Model Implication:** The shift from intrinsic motivation (purpose, innovation) to extrinsic pressure (performance, cost discipline) risks destroying cultural progress made 2021-2024. Eikenberry's (2021) distinction applies: "Compliance is 'I have to,' commitment is 'I want to.'" Cost cuts drive compliance, not the commitment needed for transformation.
+**Management Model Implication:** The shift from intrinsic motivation (purpose, innovation) to extrinsic pressure (performance, cost discipline) risks destroying cultural progress made 2021-2024. Eikenberry's (2019) distinction applies: "Compliance is 'I have to,' commitment is 'I want to.'" Cost cuts drive compliance, not the commitment needed for transformation.
 
 ### Risk Assessment Matrix
 
@@ -322,7 +322,7 @@ The $1B cost savings target requiring 2025 bonus cuts and potential layoffs crea
 
 **Expected Outcome:** Employee engagement improves to (4/5), reducing turnover, improving innovation, and supporting cultural transformation.
 
-**Theoretical Grounding:** Eikenberry (2021) emphasizes: "You must work harder to support and inspire your team, rather than just telling them what to do." Rebuilding engagement requires genuine investment, not rhetorical commitment.
+**Theoretical Grounding:** Eikenberry (2019) emphasizes: "You must work harder to support and inspire your team, rather than just telling them what to do." Rebuilding engagement requires genuine investment, not rhetorical commitment.
 
 ### Recommendation 4: Leverage Ford Pro Success for Competitive Differentiation
 
