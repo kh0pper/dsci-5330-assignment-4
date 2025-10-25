@@ -97,8 +97,6 @@ Ford's evolving management model reflects conscious choices across four critical
 
 ### Ford+ Strategy Architecture
 
-**Strategic Vision:** "Help build a better world, where every person is free to move and pursue their dreams" (Ford Motor Company, 2025, p. 1).
-
 Ford's Ford+ strategy leverages three integrated pillars that combine its historic manufacturing strengths with emerging digital capabilities. The company's iconic brands—including the F-150, America's best-selling vehicle for 47 consecutive years—are reinforced by manufacturing scale reaching 4.5 million units annually and an extensive network of 9,006 dealerships. These existing strengths are augmented by new digital capabilities including advanced software platforms, vehicle connectivity, proprietary EV technology, and subscription-based services. These capabilities enable "always-on relationships" with customers through the FordPass app, over-the-air software updates that enhance vehicle features, and fleet management telematics that create recurring revenue streams. This integrated approach transforms Ford from a traditional vehicle manufacturer into a mobility and services company, addressing both consumer and commercial customer needs.
 
 ### Strategy Implementation Roadmap Assessment
