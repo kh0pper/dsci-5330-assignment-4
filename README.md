@@ -102,40 +102,17 @@ The 2025 bonus cuts create management model tension. While cost discipline is ne
 
 ### Dimension 3: Coordinating Activities — Emergence Through Business Units
 
-**Pre-2021 Bureaucracy:** Ford operated through classic automotive hierarchy with centralized decision-making, functional silos (engineering, manufacturing, sales), and a single "Automotive segment" structure (Ford Motor Company, 2021).
+Pre-2021, Ford operated through classic automotive hierarchy with centralized decision-making, functional silos (engineering, manufacturing, sales), and a single "Automotive segment" structure (Ford Motor Company, 2021). Beginning in 2022-2024, the business unit structure enabled emergent coordination through three differentiated approaches: Ford Blue maintained autonomous P&L focused on cash generation from ICE vehicles using traditional manufacturing coordination, Ford Model e adopted startup-like autonomy for "unbridled innovation" with agile software development and rapid iteration, and Ford Pro developed commercial customer-centric solutions teams creating unique capabilities in fleet telematics and services. This aligns with **Resource-Based View** (Wernerfelt, 1984), which posits that business units develop distinctive capabilities—Pro's fleet software, Model e's battery technology, Blue's manufacturing scale—creating sustainable competitive advantage.
 
-**2022-2024 Emergence:** The business unit structure enabled emergent coordination through:
-- **Ford Blue**: Autonomous P&L focused on cash generation from ICE vehicles using traditional manufacturing coordination
-- **Ford Model e**: Startup-like autonomy for "unbridled innovation" with agile software development and rapid iteration
-- **Ford Pro**: Commercial customer-centric solutions teams developing unique capabilities (fleet telematics, services)
-
-This aligns with **Resource-Based View** (Wernerfelt, 1984): business units develop distinctive capabilities—Pro's fleet software, Model e's battery technology, Blue's manufacturing scale—creating sustainable competitive advantage.
-
-**Operations strategy concepts** illuminate this coordination approach:
-- **Economies of Scale**: Blue achieves manufacturing scale; Pro leverages that infrastructure without duplicating facilities
-- **Learning Curve**: Model e climbing the cost curve on EVs (still losing $5.4B but per-unit costs improving) (Ford Motor Company, 2025)
-
-**2025 Balance:** Gjaja's Chief Strategy Officer role coordinates strategy across units (centralization) while units retain separate P&L (autonomy). Frick's expanded role overseeing all three units signals integration opportunity while Kay Hart's Model e GM position maintains operational focus (Ford Media Center, 2025).
-
-**Analysis:** Ford successfully applied **emergence principles** through business unit autonomy, allowing differentiated coordination approaches. The 2025 recentralization recognizes that emergence without strategic guardrails creates fragmentation—demonstrating adaptive management sophistication.
+Operations strategy concepts illuminate this approach: Blue achieves manufacturing scale while Pro leverages that infrastructure without duplicating facilities (economies of scale), and Model e is climbing the cost curve on EVs, still losing $5.4B but with improving per-unit costs (learning curve) (Ford Motor Company, 2025). By 2025, Gjaja's Chief Strategy Officer role coordinates strategy across units while units retain separate P&L, Frick's expanded role overseeing all three units signals integration opportunity, and Kay Hart's Model e position maintains operational focus (Ford Media Center, 2025). Ford successfully applied **emergence principles** through business unit autonomy, allowing differentiated coordination approaches, though the 2025 recentralization recognizes that emergence without strategic guardrails creates fragmentation—demonstrating adaptive management sophistication.
 
 ### Dimension 4: Making Decisions — Collective Wisdom with Oversight
 
-**Pre-2021 Hierarchy:** Pure top-down decision-making with CEO-driven strategy, centralized approval processes, and limited delegation (Ford Motor Company, 2021).
-
-**2021-2024 Hybrid:** Ford adopted **collective wisdom** within hierarchical oversight:
-- **Unit Autonomy**: Business unit presidents made operational decisions, product planning decentralized, investment authority within unit P&L budgets
-- **Strategic Oversight**: Farley retained ultimate authority on capital allocation, overall EV investment ($50B commitment), and brand strategy
-
-Ford Pro customer advisory councils informed product development (collective wisdom from end-users), while Farley's 2024 directive to slow some EV investments demonstrates hierarchical authority when strategic coherence requires it (CNBC, 2024).
-
-**2025 Recentralization:** Gjaja's CSO reporting to both Farley and Lawler creates centralized strategy function. Lawler's Vice Chair-Strategy role elevates strategic decisions above unit level. This addresses the tension between **speed** (collective wisdom enables faster, customer-informed decisions) and **coherence** (hierarchical oversight prevents business units from conflicting strategies) (Ford Media Center, 2025).
-
-**Analysis:** Effective management models balance both poles. Ford's 2022-2024 lean toward collective wisdom; 2025 correction toward hierarchy suggests the company is actively learning and adapting rather than rigidly adhering to one model.
+Pre-2021, Ford employed pure top-down decision-making with CEO-driven strategy, centralized approval processes, and limited delegation (Ford Motor Company, 2021). From 2021-2024, Ford adopted collective wisdom within hierarchical oversight: business unit presidents made operational decisions with decentralized product planning and investment authority within unit P&L budgets, while Farley retained ultimate authority on capital allocation, overall EV investment ($50B commitment), and brand strategy. Ford Pro customer advisory councils informed product development (collective wisdom from end-users), while Farley's 2024 directive to slow some EV investments demonstrates hierarchical authority when strategic coherence requires it (CNBC, 2024). The 2025 recentralization reflects further sophistication: Gjaja's CSO reporting to both Farley and Lawler creates a centralized strategy function, and Lawler's Vice Chair-Strategy role elevates strategic decisions above unit level, addressing the tension between **speed** (collective wisdom enables faster, customer-informed decisions) and **coherence** (hierarchical oversight prevents conflicting strategies) (Ford Media Center, 2025). Effective management models balance both poles—Ford's 2022-2024 lean toward collective wisdom with 2025's correction toward hierarchy suggests the company is actively learning and adapting rather than rigidly adhering to one model.
 
 ### Management Model Comparison
 
-Ford's management model evolution demonstrates that **no single model is universally optimal**. The company experiments, learns, and adapts. The 2025 changes suggest recognition that 2022's emergence model required more strategic oversight—a sign of management sophistication, not failure.
+Ford's evolving management model reflects conscious choices across four critical dimensions. First, on objectives, the company balanced obliquity (purpose-driven mission) with goal setting (financial targets), shifting emphasis across periods as strategic needs changed. Second, regarding motivation, Ford moved from pure extrinsic compensation to a balanced approach incorporating intrinsic elements like purpose and innovation, though 2025 cost-cutting risks over-rotation back toward extrinsic pressure. Third, in coordination, Ford transitioned from traditional bureaucracy toward business unit emergence while maintaining strategic oversight. Finally, in decision-making, the company evolved from pure hierarchy toward collective wisdom and distributed leadership, then recentralized strategic decisions in 2025 to ensure coherence. This four-dimensional framework captures Ford's sophisticated management evolution, demonstrating that **no single model is universally optimal**. The company experiments, learns, and adapts. The 2025 changes suggest recognition that 2022's emergence model required more strategic oversight—a sign of management sophistication, not failure.
 
 | Dimension | 2020 Approach | 2021 Approach | 2022-2024 Approach | 2025 Evolution |
 |---|---|---|---|---|
@@ -164,12 +141,7 @@ Nieto-Rodriguez notes: "Between 60-90% of organizations fail at strategy impleme
 
 **CEO Vision:** Farley demonstrates "Level 5 Leader" characteristics—personal humility combined with professional will (Collins, 2001). Executive Chairman Bill Ford described him as "intensively competitive" and "a transformational leader" (Quarterdeck, 2024). Wolfe Research analyst Rod Lache called Farley "one of the most lucid executives," "deeply and personally invested in the business" (Chief Executive, 2024).
 
-**Strategic Talent Deployment:** The 2025 leadership changes demonstrate sophisticated talent strategy:
-- **Sherry House (CFO)**: External investment banking experience brings fresh financial perspective beyond traditional automotive finance
-- **Marin Gjaja (CSO)**: 25 years at Boston Consulting Group provides world-class strategy capability
-- **John Lawler (Vice Chair-Strategy)**: Long Ford tenure provides institutional knowledge, balancing external expertise with internal continuity
-
-**Leadership Challenges:** Rapid C-suite changes (six major roles, February 2025) create uncertainty. The 2023 UAW strike (46 days) indicates labor-management tensions despite transformation rhetoric (The Detroit News, 2024).
+**Strategic Talent Deployment:** The 2025 leadership changes demonstrate sophisticated talent strategy across the C-suite. Sherry House's appointment as CFO brings external investment banking experience that provides fresh financial perspective beyond traditional automotive finance. Marin Gjaja's creation as Chief Strategy Officer leverages 25 years at Boston Consulting Group to provide world-class strategy capability. John Lawler's elevation to Vice Chair-Strategy maintains long Ford tenure, providing institutional knowledge that balances external expertise with internal continuity. However, these rapid C-suite changes—six major roles in February 2025—create organizational uncertainty. Additionally, the 2023 UAW strike (46 days) indicates persistent labor-management tensions despite transformation rhetoric (The Detroit News, 2024), suggesting that leadership excellence at the executive level has not yet translated into employee-level buy-in for the transformation.
 
 **Score Rationale:** Strong CEO vision and strategic talent deployment, but execution challenges (employee engagement, UAW relations) prevent excellent rating.
 
@@ -249,17 +221,7 @@ Eikenberry's (2021) guidance: "You must work harder to support and inspire your 
 
 #### Pillar 7: Performance Measurement (4/5)
 
-Ford demonstrates **industry-leading transparency** by reporting business unit financials separately since 2022—most automakers (GM, Stellantis) don't explicitly break out EV losses (Ford Motor Company, 2025).
-
-**Performance Measurement Systems:**
-- **Business Unit Dashboards**: EBIT, margins, subscription revenue, customer retention
-- **Corporate KPIs**: Revenue, EBIT, net income, free cash flow, ROIC, market share, customer satisfaction
-- **Real-Time Tracking**: Manufacturing KPIs, dealer inventory, sales data
-- **Quarterly/Annual Cadence**: Earnings calls with detailed segment breakdowns
-
-**Performance Gaps:** No public employee engagement metrics; EV profitability path timeline unclear.
-
-**Score Rationale:** Excellent measurement systems and transparency, but strategic gaps (engagement metrics, EV timeline) prevent excellent rating.
+Ford demonstrates **industry-leading transparency** by reporting business unit financials separately since 2022—most automakers (GM, Stellantis) don't explicitly break out EV losses (Ford Motor Company, 2025). The company's measurement systems are comprehensive and multi-layered: business unit dashboards track EBIT, margins, subscription revenue, and customer retention; corporate KPIs monitor revenue, EBIT, net income, free cash flow, ROIC, market share, and customer satisfaction; real-time tracking monitors manufacturing KPIs, dealer inventory, and sales data; and a quarterly/annual cadence includes earnings calls with detailed segment breakdowns. However, strategic gaps remain: Ford lacks public employee engagement metrics and provides no clear EV profitability path timeline. These measurement systems represent excellent transparency and sophistication, but the strategic gaps prevent an excellent rating.
 
 ### Key Performance Indicators (2020-2024) - Comparative Analysis
 
