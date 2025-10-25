@@ -11,14 +11,6 @@
 
 Ford Motor Company's transformation under CEO Jim Farley exemplifies strategic management model evolution in the automotive industry's most disruptive period. This analysis applies Birkinshaw and Goddard's (2009) MIT Sloan management model framework and Nieto-Rodriguez's Strategy Implementation Roadmap to evaluate Ford's Ford+ plan execution and organizational effectiveness.
 
-**Key Findings:**
-
-Ford successfully transitioned from a traditional hierarchical management model (2020) to a **hybrid approach** balancing **obliquity** (purpose-driven mission) with **goal setting** (financial targets), **intrinsic and extrinsic motivation**, **emergent and bureaucratic coordination**, and **collective wisdom with hierarchical oversight** (2022-2025). The March 2022 organizational restructure into three business units—Ford Blue (ICE/hybrid), Ford Model e (EVs/software), and Ford Pro (commercial)—represents **directed strategy** creating conditions for **emergent strategy** within autonomous units.
-
-**Strategy implementation assessment yields an overall score of 3.3/5.0**, indicating moderate effectiveness with significant variation: Leadership execution (4/5) and business model innovation (4/5) demonstrate strength, while employee engagement (2/5) represents critical weakness.  Ford Pro's $9B EBIT (2024) validates the strategic approach, while Ford Model e's -$5.4B loss reveals execution challenges.
-
-**Critical recommendation:** Ford must stabilize its management model on a sustainable hybrid approach, accelerate Model e profitability through a three-horizon strategy, and rebuild employee engagement to support cultural transformation. The February 2025 leadership changes—appointing Marin Gjaja as Chief Strategy Officer and John Lawler as Vice Chair-Strategy—signal recognition that business unit autonomy requires strategic coordination.
-
 ---
 
 ## I. COMPANY OVERVIEW & STRATEGIC CONTEXT
@@ -50,16 +42,6 @@ Applying Porter's Five Forces, Ford faces intense competitive pressure across mu
 **March 2022: Business Unit Restructuring** — Ford reorganized into three customer-centered business units: Ford Blue ($75B revenue, $5.6B EBIT, 2024), Ford Model e ($7B revenue, -$5.4B EBIT), and Ford Pro ($53B revenue, $9B EBIT) (Ford Motor Company, 2025). Farley explained: "Creating separate but complementary businesses that give us startup speed and unbridled innovation in Ford Model e together with Ford Blue's industrial know-how" (Bloomberg, 2022). This exemplifies directed strategy (top-down reorganization) creating infrastructure for emergent strategy (unit-level innovation).
 
 **February 2025: Leadership Refinement** — Ford appointed Sherry House as CFO (from investment banking), elevated John Lawler to Vice Chair-Strategy, and created a Chief Strategy Officer role for Marin Gjaja (25 years at BCG) (Ford Media Center, 2025). These changes signal strategic recentralization after three years of business unit autonomy—recognizing that emergence requires oversight.
-
-**Table 1: Management Structure Evolution (2020-2025)**
-
-| Year | CEO | CFO | Business_Model | Key_Strategic_Initiative | Total_Employees_K | Organizational_Changes |
-|---|---|---|---|---|---|---|
-| 2020 | Jim Farley (Oct 2020-present) | John Lawler | Traditional Automotive Segment Structure | Product-first turnaround, EV announcement | 186 | Farley becomes CEO, emphasis on profitability |
-| 2021 | Jim Farley | John Lawler | Ford+ Plan Announced (May 2021) | Ford+ plan, EV acceleration, customer relationships | 183 | Ford+ plan unveiled, signals upcoming restructure |
-| 2022 | Jim Farley | John Lawler | Three Business Units: Blue/Model e/Pro (Mar 2022) | Business unit separation, EV investments | 173 | Major restructuring into 3 business units |
-| 2023 | Jim Farley | John Lawler | Blue/Model e/Pro Maturation | Commercial leadership (Pro), EV cost reduction | 177 | Further organizational streamlining |
-| 2024 | Jim Farley | Sherry House (Feb 2025) | Blue/Model e/Pro + Ford Next | Cost discipline, performance culture, strategic focus | 171 | 2025 leadership changes: House CFO, Lawler Vice Chair-Strategy, Gjaja CSO |
 
 *Figure 1: Ford+ Organizational Structure - See visualization in appendix*
 
@@ -357,18 +339,6 @@ The $1B cost savings target requiring 2025 bonus cuts and potential layoffs crea
 **Expected Outcome:** Ford Pro differentiates Ford from all competitors—none have equivalent commercial/software integration—creating sustainable competitive "moat."
 
 **Strategic Logic:** Operations strategy resource-based view (Wernerfelt, 1984) suggests sustainable competitive advantage derives from unique, hard-to-imitate capabilities. Ford Pro's integration of vehicles, software, and services represents exactly such a capability.
-
-### Implementation Timeline
-
-**Q2 2025**: Management model stabilization (decision authority matrix); Model e cost reduction initiatives launch; employee engagement listening tour
-
-**Q3 2025**: EV reskilling program announcement; Ford Pro expansion plan; quarterly strategic alignment process
-
-**Q4 2025**: Bonus policy revision; affordable EV product announcement; UAW partnership on workforce transition
-
-**2026**: Model e losses declining toward breakeven; employee engagement metrics improving; Ford Pro integrated EV solutions in market
-
-**Success Metrics**: Employee engagement (2/5 → 4/5); Model e EBIT (-$5.4B → -$1.5B → $0 by 2027); Ford Pro EBIT ($9B → $11B); Stock price ($9.89 → $15+)
 
 ---
 
