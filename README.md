@@ -203,14 +203,6 @@ Applying Nieto-Rodriguez's Strategy Implementation Roadmap, Ford scores 3.3/5.0 
 
 **What's Not Working:** EV economics (Model e losses); employee engagement (cost-cutting, restructuring fatigue); stakeholder buy-in (UAW tensions, dealer concerns, shareholder skepticism); execution speed (Model e learning curve).
 
-### Future Outlook Assessment
-
-**Best Case Scenario (35% probability):** Model e reaches breakeven by 2027; Ford Pro grows to $12B+ EBIT; employee engagement rebounds through reskilling programs; stock recovers to $18-20; management model stabilizes as competitive advantage.
-
-**Most Likely Scenario (50% probability):** Model e losses persist but narrow (-$2B by 2027); Ford Pro continues strong performance ($10-11B EBIT); employee engagement remains challenged (3/5); stock modestly improves ($12-14); management model continues oscillating while seeking optimal balance.
-
-**Downside Scenario (15% probability):** Model e losses force strategic pivot (reduce EV investment); UAW strike disrupts production; employee talent exodus to tech companies; stock declines further ($6-8); management model reverts to hierarchy, losing innovation advantage.
-
 ### Final Assessment
 
 Ford's management model transformation is **ambitious and necessary**. The automotive industry's transition to EVs, software, and services requires new organizational capabilities that traditional hierarchical structures cannot provide. Ford's experiment with business unit autonomy, balanced motivation, and collective wisdom represents genuine management innovation.
