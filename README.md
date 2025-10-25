@@ -185,19 +185,6 @@ The $1B cost savings target requiring 2025 bonus cuts and potential layoffs crea
 
 Ford must address this challenge by applying stakeholder capitalism principles that emphasize employee value alongside shareholder value. This begins with transparent communication through monthly CEO town halls explaining Ford+ progress and challenges, unit-level forums for employee voice, and clear job security communication paired with EV transition workforce planning. Simultaneously, Ford should invest $500M in an EV workforce training program providing guaranteed opportunities for ICE workers to transition to EV jobs with company-sponsored training and UAW partnership on curriculum development. To create shared success, Ford should restore bonuses for middle managers on a performance basis rather than blanket cuts, implement profit-sharing if the company exceeds EBIT targets, and establish unit-level team achievement bonuses tied to transformation milestones rather than financial metrics alone. Beyond compensation, Ford should invest in work-life balance through flexible arrangements where feasible, mental health support programs, and recognition beyond purely financial compensation. These investments signal genuine commitment rather than rhetoric and are essential for employee engagement improvement from 2/5 to 4/5, reducing turnover, improving innovation, and supporting the cultural transformation Ford requires.
 
-### Risk Assessment Matrix
-
-| Risk | Likelihood | Impact | Priority | Mitigation Strategy |
-|------|------------|--------|----------|---------------------|
-| Model e profitability delay | HIGH | HIGH | **CRITICAL** | Cost reduction, selective focus, three-horizon plan |
-| Employee disengagement | HIGH | MEDIUM | HIGH | Culture investment, transparent communication, reskilling |
-| Future UAW strike | MEDIUM | HIGH | HIGH | Proactive negotiations, worker transition planning |
-| Tesla Cybertruck competition | HIGH | MEDIUM | MEDIUM | F-150 Lightning improvements, brand loyalty leverage |
-| Chinese EV entry to U.S. | MEDIUM | HIGH | MEDIUM | Innovation leadership, brand strength, policy advocacy |
-| Dealer revolt (direct sales) | MEDIUM | MEDIUM | LOW | Dealer partnerships, revenue sharing models |
-
-*[INSERT VISUALIZATION: Figure 5 - Competitive Positioning Matrix showing Ford units vs. competitors on innovation/profitability dimensions]*
-
 ### Additional Strategic Imperatives
 
 **Refine Management Model for Sustainable Balance:** Ford's management model has swung excessively between 2022's emergence model and 2025's recentralization. The company should stabilize on a balanced hybrid model that captures the best elements of both poles. On objectives, Ford should maintain the oblique vision of building a better world while setting realistic unit-specific targets such as Model e breakeven by 2027. On motivation, Ford should restore the intrinsic/extrinsic balance by reversing 2025 bonus cuts for top performers and implementing innovation rewards separate from financial bonuses, preventing the cultural shift from commitment to compliance. On coordination, Ford should preserve business unit autonomy with strategic guardrails, allowing Gjaja's Chief Strategy Officer role to coordinate strategy without dictating tactics to unit presidents. On decision-making, Ford should clarify the decision authority matrix, specifying that unit presidents control operations and pricing decisions while the CEO and CSO retain authority over capital allocation and brand strategy. This refined management model would drive organizational stability, improve employee engagement from 2/5 to 4/5, and maintain innovation while adding strategic coherence. Birkinshaw and Goddard (2009) note: "There is no one best management model." Effective organizations consciously choose positions on each dimension based on competitive context, and Ford's challenge is finding sustainable balance rather than oscillating between extremes.
