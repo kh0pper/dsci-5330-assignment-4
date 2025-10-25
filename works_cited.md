@@ -97,13 +97,15 @@ The Futurum Group. (2024). Ford Q1 2024 Earnings, Ford Pro's Momentum Is Acceler
 
 Birkinshaw, J., & Goddard, J. (2009). What Is Your Management Model? *MIT Sloan Management Review*, 50(2), 81-90. https://sloanreview.mit.edu
 
+Casadesus-Masanell, R. (2007, revised 2022). Introduction to Strategy. *Harvard Business School Publishing*. Course Reading Material.
+
 Nieto-Rodriguez, A. (2021). Strategy Implementation: A Modern Guide. *LinkedIn Learning*. https://www.linkedin.com/learning/strategy-implementation
 
 Kay, J. (1998). *Obliquity: Why Our Goals Are Best Achieved Indirectly*. Profile Books.
 
 Porter, M. E. (1996). What is Strategy? *Harvard Business Review*, 74(6), 61-78. https://hbr.org/1996/11/what-is-strategy
 
-Eikenberry, K. (2021). Management 101. *LinkedIn Learning*. https://www.linkedin.com/learning/management-101
+Eikenberry, K. (2019). Management Foundations. *LinkedIn Learning*. https://www.linkedin.com/learning/management-foundations-2019/management-101?u=74650474
 
 California Management Review. (2022, November). Strategizing for the Electrification Era: How the Ford Story is Unfolding. *California Management Review*. https://cmr.berkeley.edu/2022/11/strategizing-for-the-electrification-era-how-the-ford-story-is-unfolding/
 
