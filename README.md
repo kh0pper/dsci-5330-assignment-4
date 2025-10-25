@@ -96,13 +96,6 @@ Pre-2021, Ford employed pure top-down decision-making with CEO-driven strategy, 
 
 Ford's evolving management model reflects conscious choices across four critical dimensions. First, on objectives, the company balanced obliquity (purpose-driven mission) with goal setting (financial targets), shifting emphasis across periods as strategic needs changed. Second, regarding motivation, Ford moved from pure extrinsic compensation to a balanced approach incorporating intrinsic elements like purpose and innovation, though 2025 cost-cutting risks over-rotation back toward extrinsic pressure. Third, in coordination, Ford transitioned from traditional bureaucracy toward business unit emergence while maintaining strategic oversight. Finally, in decision-making, the company evolved from pure hierarchy toward collective wisdom and distributed leadership, then recentralized strategic decisions in 2025 to ensure coherence. This four-dimensional framework captures Ford's sophisticated management evolution, demonstrating that **no single model is universally optimal**. The company experiments, learns, and adapts. The 2025 changes suggest recognition that 2022's emergence model required more strategic oversight—a sign of management sophistication, not failure.
 
-| Dimension | 2020 Approach | 2021 Approach | 2022-2024 Approach | 2025 Evolution |
-|---|---|---|---|---|
-| **Objectives** | Goal Setting (short-term financial targets) | Hybrid (Ford+ vision + financial goals) | Obliquity (customer freedom, better world) + Targets | Goal Setting (cost, performance) + Vision |
-| **Motivation** | Extrinsic (compensation, bonuses) | Balanced (purpose + compensation) | Intrinsic emphasis (innovation, purpose) + Extrinsic | Extrinsic (performance bonuses cut for underperformers) |
-| **Coordination** | Bureaucracy (traditional OEM hierarchy) | Emerging (Ford+ signals change) | Emergence (business unit autonomy) + Coordination | Balanced (autonomy + accountability) |
-| **Decision Making** | Hierarchy (top-down, CEO-driven) | Hierarchy with consultation | Collective Wisdom (unit leaders) + Executive oversight | Strategic centralization (Gjaja CSO, Lawler strategy) |
-
 *[INSERT VISUALIZATION: Figure 2 - Management Model Radar Chart showing 4-dimension evolution across 2020/2022-2024/2025]*
 
 ---
