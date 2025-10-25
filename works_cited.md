@@ -99,6 +99,8 @@ Birkinshaw, J., & Goddard, J. (2009). What Is Your Management Model? *MIT Sloan 
 
 Casadesus-Masanell, R. (2007, revised 2022). Introduction to Strategy. *Harvard Business School Publishing*. Course Reading Material.
 
+Collins, J. C. (2001). Level 5 Leadership: The Triumph of Humility and Fierce Resolve. *Harvard Business Review*, 79(1), 66-76. https://hbr.org/2001/01/level-5-leadership-the-triumph-of-humility-and-fierce-resolve-2. Accessible PDF: https://lideranca.blog.br/wp-content/uploads/2017/08/Level-5-Leadership.pdf
+
 Nieto-Rodriguez, A. (2021). Strategy Implementation: A Modern Guide. *LinkedIn Learning*. https://www.linkedin.com/learning/strategy-implementation
 
 Kay, J. (1998). *Obliquity: Why Our Goals Are Best Achieved Indirectly*. Profile Books.

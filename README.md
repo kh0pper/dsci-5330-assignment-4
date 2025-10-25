@@ -110,7 +110,7 @@ Ford's Ford+ strategy leverages three integrated pillars that combine its histor
 
 ### Strategy Implementation Roadmap Assessment
 
-Nieto-Rodriguez notes: "Between 60-90% of organizations fail at strategy implementation." Ford's implementation record across seven SIR pillars reveals both strengths and weaknesses.
+Nieto-Rodriguez notes: "Between 60-90% of organizations fail at strategy implementation" (Nieto-Rodriguez, 2021). Ford's implementation record across seven SIR pillars reveals both strengths and weaknesses.
 
 #### Pillar 1: Leadership Execution (4/5)
 
